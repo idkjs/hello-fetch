@@ -1,0 +1,28 @@
+{
+  "name": "hello-fetch",
+  "version": "1.0.0",
+  "license": "MIT",
+  "esy": {
+    "build": "refmterr dune build src/Fetch_Lwt.exe"
+  },
+  "scripts": {
+    "start": "esy refmterr dune exec src/Fetch_Lwt.exe -- --port=3000 --debug --verbose",
+    "start2": "esy refmterr dune exec src/Fetch_Lwt_Successful.exe -- --port=3000 --debug --verbose",
+    "format": "esy dune build @fmt --auto-promote"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "fetch-native-lwt": "lessp/fetch:fetch-native-lwt.json",
+    "refmterr": "*",
+    "ocaml": "4.12.x",
+    "melange": "melange-re/melange"
+  },
+  "devDependencies": {
+    "ocaml": "4.12.x",
+    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam"
+  },
+  "resolutions": {
+    "@esy-ocaml/reason": "EduardoRFS/reason:reason.json#35aa4df3de0daa60bdc1133dcf97855decac48f7",
+    "refmterr": "jfrolich/reason-native:refmterr.json#08085a4048974b06aaf3aab918b677b39dea3d18"
+  }
+}
