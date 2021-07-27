@@ -1,6 +1,6 @@
 {
-  "checksum": "e4e0978e2c46f1ede31b3fb8c8bba600",
-  "root": "hello-reason-server@link-dev:./esy.json",
+  "checksum": "c4d700c76c0fc8ba9b019be3dade3b64",
+  "root": "hello-fetch@link-dev:./esy.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9": {
       "id":
@@ -79,9 +79,9 @@
       "devDependencies": [],
       "installConfig": { "pnp": false }
     },
-    "hello-reason-server@link-dev:./esy.json": {
-      "id": "hello-reason-server@link-dev:./esy.json",
-      "name": "hello-reason-server",
+    "hello-fetch@link-dev:./esy.json": {
+      "id": "hello-fetch@link-dev:./esy.json",
+      "name": "hello-fetch",
       "version": "link-dev:./esy.json",
       "source": { "type": "link-dev", "path": ".", "manifest": "esy.json" },
       "overrides": [],
@@ -90,7 +90,8 @@
         "ocaml@4.12.0@d41d8cd9",
         "melange@github:melange-re/melange#0987f1d582822dfe747095e586ec9878c83510ad@d41d8cd9",
         "fetch-native-lwt@github:lessp/fetch:fetch-native-lwt.json#cca3980900c70d21341bf0aa9a1e091e75161f23@d41d8cd9",
-        "@opam/dune@opam:2.9.0@489e77a9"
+        "@opam/dune@opam:2.9.0@489e77a9",
+        "@esy-ocaml/reason@github:EduardoRFS/reason:reason.json#35aa4df3de0daa60bdc1133dcf97855decac48f7@d41d8cd9"
       ],
       "devDependencies": [
         "ocaml@4.12.0@d41d8cd9",
@@ -241,7 +242,7 @@
       "dependencies": [
         "ocaml@4.12.0@d41d8cd9",
         "@reason-native-web/lwt_ssl@1.1.3005@d41d8cd9",
-        "@reason-native-web/h2-lwt-unix@0.6.1001@d41d8cd9",
+        "@reason-native-web/h2-lwt-unix@0.6.1002@d41d8cd9",
         "@reason-native-web/h1-lwt-unix@1.2.2001@d41d8cd9",
         "@reason-native-web/gluten-lwt-unix@0.2.1@d41d8cd9",
         "@opam/uri@opam:4.2.0@9c45eeb8",
@@ -271,14 +272,14 @@
       ],
       "devDependencies": []
     },
-    "@reason-native-web/h2-lwt-unix@0.6.1001@d41d8cd9": {
-      "id": "@reason-native-web/h2-lwt-unix@0.6.1001@d41d8cd9",
+    "@reason-native-web/h2-lwt-unix@0.6.1002@d41d8cd9": {
+      "id": "@reason-native-web/h2-lwt-unix@0.6.1002@d41d8cd9",
       "name": "@reason-native-web/h2-lwt-unix",
-      "version": "0.6.1001",
+      "version": "0.6.1002",
       "source": {
         "type": "install",
         "source": [
-          "archive:https://registry.npmjs.org/@reason-native-web/h2-lwt-unix/-/h2-lwt-unix-0.6.1001.tgz#sha1:9f89181b5d2d244c9ee1d8a1e88fd258c4ab6d56"
+          "archive:https://registry.npmjs.org/@reason-native-web/h2-lwt-unix/-/h2-lwt-unix-0.6.1002.tgz#sha1:9bf1998a7a62ddfc712d22cf04a045cfc2017d8e"
         ]
       },
       "overrides": [],
